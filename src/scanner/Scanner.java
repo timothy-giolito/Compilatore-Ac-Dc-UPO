@@ -63,6 +63,9 @@ public class Scanner {
 		keyWordsTkType.put("float", TokenType.TYFLOAT);
 	}
 
+	/**
+	 * metodo nextToken() che restituisce il prossimo token dell’input
+	 * */
 	public Token nextToken() throws LexicalException {
 
 		if (nextTk != null) {
@@ -87,7 +90,7 @@ public class Scanner {
 			if (letters.contains(nextChar)) {
 				return scanId();
 			}
-			if (operTkType.containsKey(nextChar)) {
+			if (operTkType.containsKey(nextChar)) { 
 				return scanOperator();
 			}
 			if (delimTkType.containsKey(nextChar)) {
@@ -100,7 +103,7 @@ public class Scanner {
 			throw new LexicalException(riga, nextChar);
 		} catch (IOException e) {
 			throw new LexicalException(riga, "errore di lettura del file");
-		}
+		} 
 	}
 
 	// ID: deve iniziare con lettera, poi può contenere lettere o cifre
