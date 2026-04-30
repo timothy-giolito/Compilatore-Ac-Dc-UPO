@@ -26,7 +26,7 @@ public class TestScanner {
 		Token t = scanner.nextToken();
 		assertEquals(TokenType.EOF, t.getTipo());
 		assertTrue(t.getRiga() == 4);
-	} 
+	}
 
 	@Test
 	void testCaratteriSkip() throws Exception {

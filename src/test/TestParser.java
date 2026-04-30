@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import org.junit.jupiter.api.Test;
 
-/import ast.NodeProgram;
+import ast.NodeProgram;
 import parser.Parser;
 import parser.SyntacticException;
 import scanner.Scanner;
