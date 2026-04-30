@@ -46,6 +46,3 @@ Compilatore-Ac-Dc-UPO/
 │   │   └── codegen/            # Gestione dei registri per la generazione del codice
 │   └── test/                   # Classi di test JUnit per ogni modulo
 │       └── data/               # File .txt utilizzati come casi di test (corretti ed errati)
-├── bin/                        # Bytecode Java compilato
-├── .project / .classpath       # File di configurazione per l'ambiente Eclipse
-└── README.md                   # Documentazione del progetto
