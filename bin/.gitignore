@@ -1,3 +1,7 @@
 /ast/
-/visitor/
+/parser/
+/scanner/
+/symbolTable/
 /test/
+/token/
+/visitor/
