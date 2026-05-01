@@ -1,6 +1,8 @@
 # Compilatore Ac-Dc UPO
 
-Questo progetto consiste nella realizzazione di un compilatore completo per un linguaggio didattico denominato **Ac-Dc**, progettato per tradurre il codice sorgente in istruzioni eseguibili per il calcolatore a stack `dc` (Desk Calculator) di Unix. Il sistema è sviluppato in Java 21 e segue le fasi classiche del processo di compilazione: analisi lessicale, sintattica, semantica e generazione del codice.
+Questo progetto consiste nella realizzazione di un compilatore completo per un linguaggio didattico denominato **Ac-Dc**, progettato per tradurre il codice sorgente in istruzioni eseguibili per il calcolatore a stack `dc` (Desk Calculator). Il sistema è sviluppato in Java 21 e segue le fasi classiche del processo di compilazione: analisi lessicale, sintattica, semantica e generazione del codice.
+
+---
 
 ## 🚀 Funzionalità e Architettura
 
